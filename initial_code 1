@@ -1,0 +1,166 @@
+print('''
+*******************************************************************************
+          |                   |                  |                     |
+ _________|________________.=""_;=.______________|_____________________|_______
+|                   |  ,-"_,=""     `"=.|                  |
+|___________________|__"=._o`"-._        `"=.______________|___________________
+          |                `"=._o`"=._      _`"=._                     |
+ _________|_____________________:=._o "=._."_.-="'"=.__________________|_______
+|                   |    __.--" , ; `"=._o." ,-"""-._ ".   |
+|___________________|_._"  ,. .` ` `` ,  `"-._"-._   ". '__|___________________
+          |           |o`"=._` , "` `; .". ,  "-._"-._; ;              |
+ _________|___________| ;`-.o`"=._; ." ` '`."\` . "-._ /_______________|_______
+|                   | |o;    `"-.o`"=._``  '` " ,__.--o;   |
+|___________________|_| ;     (#) `-.o `"=.`_.--"_o.-; ;___|___________________
+____/______/______/___|o;._    "      `".o|o_.--"    ;o;____/______/______/____
+/______/______/______/_"=._o--._        ; | ;        ; ;/______/______/______/_
+____/______/______/______/__"=._o--._   ;o|o;     _._;o;____/______/______/____
+/______/______/______/______/____"=._o._; | ;_.--"o.--"_/______/______/______/_
+____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
+/______/______/______/______/______/______/______/______/______/______/_____ /
+*******************************************************************************
+''')
+print("Welcome to Treasure Island.")
+print("Your mission is to find the treasure.") 
+
+#https://www.draw.io/?lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Treasure%20Island%20Conditional.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1oDe4ehjWZipYRsVfeAx2HyB7LCQ8_Fvi%26export%3Ddownload
+
+#Write your code below this line 👇
+
+name = input("What is your name? ")
+
+print("\n" + name + ", You are entering a cave with a strange dimmed light, in \nthe process you see the cave splitting up in two directions. One \ndirection has a darker floor that is barely visible  but  in the other hand, \nthe direction is filled with spider webs and visible black widows \nyou focus closer and you see two signs, one on the left entrance \nand one on the right entrance, Left sign has a 4 and right sign has a 9 . you focus just a bit harder and their is a set of stairs going further underground, the sign states 'fours'")
+
+direction_path1 = input("Nervously shaking... you check your pockets and notice a piece of paper \nthat has the symbol 'IIII',\n \n which direction will you choose?, left, underground or right?  ")
+
+if direction_path1 == "underground":
+
+  print(" ")
+  print(" you decend and get sliced up by freddy Kruger \n ")
+  print("GAME OVER\n ")
+  
+elif direction_path1 == "left":
+  print("""
+        m1a  |
+             |
+         *   |   *
+         
+       .  --\|/--  ,
+        '--|___|--'
+        ,--|___|--,
+       '  /\o o/\  `
+         +   +   +
+          `     '\n """)
+  
+  print(" As you ran through the spider webs you made it through the other side. \njumping, screaming, and swiping all the black widows on your jeans, \nshoes, and long sleeve shirt; nearly escaped \na bite in the face slapping the last Widow on your face")
+
+    
+  direction_path2 = input("\n Breathing hard and moving forward without notice, you realize your shoes are wet, in the distance you notice a light with just enough glow to light a path between you and the door.  As you look at the pathway, you notice its part of a big underwater cave lake system. Though, The door shines bright yellow with enough heat to fill your heart with warmth it turns quickly into red, The color red makes you feel uncomfortable; Then a few seconds later it shines blue, filling your bones with chill and more discomfort. It slowly alternates blue, yellow, and red.  You should wait for the yellow light to shine again, if you decide to swim towards yellow... Should you 'swim' to the yellow light or 'wait' and set a fire to warm up? ")
+
+
+                            
+  if direction_path2 == "wait":
+    print(r"""                   .(
+                    /%/\
+                   (%(%))
+                  .-'..`-.
+                  `-'.'`-'""")
+                          
+    print("\nAs you set up the fire, in the distance you notice a glow of light shinning brighter, As it gets brighter you notice it resembles somewhat a door. \n ")
+      
+    print(" The door continues to get brighter and you start wondering if you should head that way.  As the light gets brighter you notice the path is a solid floor with a safe walkway towards the door\n ")
+
+    direction_path3 = input("\n The closer you get to the light the brighter it gets and you realize that its actually three doors and not one.  The colors of light also turn different colors. As you get closer the door seperate into three different doors.  you get to about 100 ft away when you notice you only have a one way path to each door.  each one with a different color. Which color are you choosing 'red', 'yellow', 'blue' , 'purple', and 'green' ")
+
+    if direction_path3 == "blue":
+      print(" \n \n ")
+      print(r"""Ice cube (melting)
+  .------,
+,'_____,'|
+|    //| |
+|      | |
+| //   | ;
+|______|'._
+   `._     `;
+      `-._.'""")
+      
+      print("\n you chose blue.  you walk forward and notice things are getting slightly colder.  you take one more step and you istantly freeze. ")
+      print(" ")
+      print("\n GAME OVER")
+                              
+    elif direction_path3 == "yellow":
+      print(r"""              .
+               					
+              |					
+     .               /				
+      \       I     				
+                  /
+        \  ,g88R_
+          d888(`  ).                   _
+ -  --==  888(     ).=--           .+(`  )`.
+)         Y8P(       '`.          :(   .    )
+        .+(`(      .   )     .--  `.  (    ) )
+       ((    (..__.:'-'   .=(   )   ` _`  ) )
+`.     `(       ) )       (   .  )     (   )  ._
+  )      ` __.:'   )     (   (   ))     `-'.:(`  )
+)  )  ( )       --'       `- __.'         :(      ))
+.-'  (_.'          .')                    `(    )  ))
+                  (_  )                     ` __.:'
+                                        	
+--..,___.--,--'`,---..-.--+--.,,-,,..._.--..-._.-a:f--.""")
+      
+      print("\n Life is rough.  but you live to see another day. As you walk each step the air feels warm and delightful.  And the yellow light hugs your skin just with enough warmth.  Thereafter, you wake from your bed with your mother screaming.  would you like some breakfast honey?")
+
+      print(" \n \n")
+      print("You Won! Thank you for playing")
+      
+
+    elif direction_path3 == "red":
+      print(" \n \n ")
+      print(r"""               (  .      )
+           )           (              )
+                 .  '   .   '  .  '  .
+        (    , )       (.   )  (   ',    )
+         .' ) ( . )    ,  ( ,     )   ( .
+      ). , ( .   (  ) ( , ')  .' (  ,    )
+     (_,) . ), ) _) _,')  (, ) '. )  ,. (' )
+ jgs^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^""")
+
+      print(" \n you slip through the one way narrow path and notice you had to put up a sweat.  You get closer and things start to get warmer.  You continue to press forward and start to slowly lose pace.  The close you get the hotter the air. You slowly die from heat exhaustion and cook slowly on the floor")
+
+      print("GAME OVER")
+
+    else:
+      print(" \n \n \n ")
+      print("pay attention and start over dude!")
+  
+  else:
+      print("\n You lightly touch the water and notice it's warm.  You gain confidence and take a dive into the water.  You swim towards the light where you see a boat with a paddle, but,  As you are swimming you notice a green glow getting closer to you from underneath.  You swim quicker and quicker...  but not quick enough. you get eaten by the lockness monster so quick you don't even realize it")
+
+      print(r"""                 |
+                 |
+                ,|.
+               ,\|/.
+             ,' .V. `.
+            / .     . \
+           /_`       '_\
+          ,' .:     ;, `.
+          |@)|  . .  |(@|
+     ,-._ `._';  .  :`_,' _,-.
+    '--  `-\ /,-===-.\ /-'  --`
+   (----  _|  ||___||  |_  ----)
+    `._,-'  \  `-.-'  /  `-._,'
+             `-.___,-' ap""")
+      
+      print("GAME OVER")
+
+else:
+  print(" \n Nervously moving forward, you don't realize the darker floor was a pit full of anacondas, in the process of falling you break your neck and die.\n ")
+    
+  print("""               __
+      _______    /*_>-<
+  ___/ _____ \__/ /
+ <____/     \____/
+ """)
+
+  print("GAME OVER")
